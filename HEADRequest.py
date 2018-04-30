@@ -5,9 +5,11 @@ import httplib
 host = "www.google.com"
 
 '''
-This module defines classes which implement the client side of the HTTP and HTTPS protocols.
-the module urllib uses it to handle URLs that use HTTP and HTTPS.
+This module makes an http connection to the provided host 
+using httplib library then makes an HEAD request,
+up on response reads and prints the status code
 '''
+
 # Instantiate the HTTP class with give host address
 req = httplib.HTTP(host)
 

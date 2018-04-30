@@ -1,10 +1,13 @@
 #!/usr/bin/python
-__author__ = 'kilroy'
-#  (c) 2014, WasHere Consulting, Inc.
-#  Written for Infinite Skills
 
 from pyfuzz.generator import *
 import socket
+
+'''
+This module do the fuzz testing or anomaly testing is a technique
+in which an unexpected input is sent to the stream we are sending to particular application 
+in order to disrupt that application and causing failure. 
+'''
 
 msg = random_ascii() + b" / HTTP/1.1\nHost: 172.30.42.114\r\n"
 print(msg)

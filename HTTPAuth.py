@@ -1,11 +1,12 @@
-#!/usr/bin/python
-__author__ = 'kilroy'
-#  (c) 2014, WasHere Consulting, Inc.
-#  Written for Infinite Skills
-
 import httplib
 import base64
 import string
+
+'''
+This module Uses base64 library to encode the username and password passed,
+then makes an GET request (with httplib library)to given host + path with authorization header set
+then retrieves and prints the status message
+'''
 
 h = "172.30.42.127"
 u = "ric"
