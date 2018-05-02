@@ -1,9 +1,11 @@
 #!/usr/bin/python
-__author__ = 'kilroy'
-#  (c) 2014, WasHere Consulting, Inc.
-#  Written for Infinite Skills
 
 import urllib
+
+'''
+This module takes in an web link of the resource and downloads(with help of urllib) the file from web
+it also takes in second parameter which is the new name to the downloaded file
+'''
 
 print("starting download")
 

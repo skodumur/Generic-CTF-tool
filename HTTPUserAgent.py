@@ -1,9 +1,13 @@
 #!/usr/bin/python
-__author__ = 'kilroy'
-#  (c) 2014, WasHere Consulting, Inc.
-#  Written for Infinite Skills
 
 import httplib
+
+'''
+This module takes in the user provided headers like user agent 
+and makes an request to the server using httplib. This way the server can manipulate 
+the response based on the request header.
+'''
+
 
 h = "www.infiniteskills.com"
 
